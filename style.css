@@ -1,0 +1,92 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+.container {
+  width: 1120px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 15px;
+}
+.layout {
+  display: flex;
+  gap: 30px;
+}
+.main {
+  flex: 3;
+}
+.trangchu a{
+font-size: 13px;
+}
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+h1 {
+  text-align: left;
+  color: #254892;
+  margin: 10px 0px 20px;
+  font-size: 32px;
+}
+h2 {
+  text-align: left;
+  color: #292929;
+  margin: 0px 0px 15px;
+  font-size: 21px;
+}
+p {
+  text-align: left;
+  line-height: 1.7;
+  color: #111111;
+  margin: 0px 0px 15px;
+  font-size: 21px;
+}
+.main img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+figure {
+  margin: 0px 0;
+}
+figcaption {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 8px 0px;
+  color: #616161;
+  font-size: 19px;
+}
+.bg-img{
+  height: 220px;
+  background-image: url("MUFC_v_ACFF_2425_AD_981755178314689_large.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+.news{
+  display:flex;
+  gap: 10px;
+  align-items: center;
+}
+.news p{
+  font-size: 15px;
+  color: #333333;
+}
+.news img{
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+}
+.main a{
+  color: #1b95e0;
+  text-decoration:none;
+}
+.news a{
+ color: #333333;
+ text-decoration: none;
+}
+.news a:hover{
+  color: #1b95e0 ;
+}
